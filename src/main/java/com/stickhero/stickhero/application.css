@@ -1,0 +1,11 @@
+.stage1 {
+    -fx-text-fill: white;
+    -fx-margin: 0;
+    -fx-padding: 0;
+    -fx-perspective: 1px;
+    -fx-transform-style: preserve-3d;
+    -fx-height: 100%;
+    -fx-width: 100%;
+    -fx-overflow-y: scroll;
+    -fx-overflow-x: hidden;
+}

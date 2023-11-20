@@ -1,6 +1,8 @@
 package com.stickhero.stickhero;
 
-public class Pillar {
+import javafx.scene.Node;
+
+public class Pillar extends Node {
 
     private final int Height = 230;
 
@@ -25,5 +27,10 @@ public class Pillar {
     public int getPos()
     {
         return x;
+    }
+
+    @Override
+    public Node getStyleableNode() {
+        return super.getStyleableNode();
     }
 }

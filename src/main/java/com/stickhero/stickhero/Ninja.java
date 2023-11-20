@@ -22,6 +22,9 @@ public class Ninja {
     {
     }
 
+    public void moveDownwards(){
+    }
+
     public int getWidth()
     {
         return width;

@@ -1,0 +1,37 @@
+@keyframes animationName {
+    0% {
+        -fx-min-width: 100px;
+        -fx-min-height: 100px;
+        -fx-font-size: 28px;
+    }
+    50% {
+        -fx-min-width: 114px;
+        -fx-min-height: 114px;
+        -fx-font-size: 35px;
+    }
+    100% {
+        -fx-min-width: 100px;
+        -fx-min-height: 100px;
+        -fx-font-size: 28px;
+    }
+}
+
+.styled-button {
+        -fx-background-color: #FF006A; /* Set your desired background color */
+            -fx-text-fill: white;
+            -fx-font-size: 28px;
+            -fx-font-weight: 600;
+            -fx-background-radius: 100%; /* Make the button circular */
+            -fx-min-width: 104px; /* Set the width of the button */
+            -fx-min-height: 104px; /* Set the height of the button */
+        /* Animation */
+        /*    -fx-padding: 7px;
+            -fx-border-width: 0;
+            -fx-background-insets: 0;
+            -fx-animation: animationName 2s linear 2 infinite alternate;
+        */
+}
+
+.grid-pane {
+    -fx-alignment: center;
+}
